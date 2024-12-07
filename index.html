@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Anniversary Rian dan Ratna</title>
+    <style>
+      body {
+        background-color: #e0f7fa; /* Latar canvas biru muda */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Audio lokal -->
+    <audio id="background-music" autoplay loop>
+      <source src="musik.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script>
+      // Musik latar otomatis
+      const music = document.getElementById("background-music");
+      music.volume = 0.5;
+
+      document.addEventListener("click", () => {
+        const music = document.getElementById("background-music");
+        music.play().catch((error) => console.error("Autoplay error:", error));
+      });
+
+      // Sweet Alert pertama
+      Swal.fire({
+        text: "haloo sayangkuu cintakuuuu cantikuuu ><",
+        imageUrl: "https://media.tenor.com/-we_p90HDd8AAAAj/hola-pocoyo.gif",
+        imageWidth: 300,
+        imageHeight: 200,
+        confirmButtonText: "Lanjutkan",
+        confirmButtonColor: "#87CEEB",
+      }).then(() => {
+        // Sweet Alert kedua
+        Swal.fire({
+          text: "happy anniversary yang ke 1 month sayangg",
+          imageUrl: "https://media.tenor.com/KaTDbDxg8n0AAAAj/tkthao219-bubududu.gif",
+          imageWidth: 300,
+          imageHeight: 200,
+          confirmButtonText: "Lanjutkan",
+          confirmButtonColor: "#87CEEB",
+        }).then(() => {
+          // Sweet Alert ketiga
+          Swal.fire({
+            text: "hubungan yang gak disangka-sangka dan plot twist banget skrng udah 1 bulan aja",
+            imageUrl: "https://media.tenor.com/_VaaK5oM3rYAAAAj/encantado-de-conocerte-pocoyo.gif",
+            imageWidth: 300,
+            imageHeight: 200,
+            confirmButtonText: "Lanjutkan",
+            confirmButtonColor: "#87CEEB",
+          }).then(() => {
+            // Sweet Alert keempat
+            Swal.fire({
+              text: "terimakasih yaa sayang sudah mau menerima dan ngejalani hubungan bersama aa sejauh ini. meski baru 1 bulan aa udah bersyukur banget bisa dimiliki ayangg. ",
+              imageUrl: "https://media.tenor.com/vJRHkcdlEQQAAAAj/casal-dudu.gif",
+              imageWidth: 300,
+              imageHeight: 200,
+              confirmButtonText: "Lanjutkan",
+              confirmButtonColor: "#87CEEB",
+            }).then(() => {
+              // Sweet Alert kelima
+              Swal.fire({
+                text: "aa bangga dengan ayang, aa terharu sama ayang sudah memperlakukan aa dengan baik, respon yang baik, selalu ngasih feedback yang baik juga",
+                imageUrl: "https://media.tenor.com/hi7l4Bb1f4sAAAAM/soy-pocoyo-pocoyo.gif",
+                imageWidth: 300,
+                imageHeight: 200,
+                confirmButtonText: "Lanjutkan",
+                confirmButtonColor: "#87CEEB",
+              }).then(() => {
+                // Sweet Alert keenam
+                Swal.fire({
+                  text: "terimakasih telah menjadi tempat aa bercerita, dengerin keluh kesah aa, terimakasih juga udah mau sama aa yang masih berproses ini.",
+                  imageUrl: "https://media.tenor.com/hmYv6-dCkGgAAAAj/bubu-dudu-bubu.gif",
+                  imageWidth: 300,
+                  imageHeight: 200,
+                  confirmButtonText: "Lanjutkan",
+                  confirmButtonColor: "#87CEEB",
+                }).then(() => {
+                  // Sweet Alert ketujuh
+                  Swal.fire({
+                    text: "maafin aa ya cantik klo sama aa banyak kurangnya, belum sebaik seperti masalalu ayang atau laki² lainnya, maafin aa yang sering membuat masalah dalam hubungan ini, bikin ayang badmood, ngambek, semua karena aa. maafin yaa cantikk",
+                    imageUrl: "https://media.tenor.com/29-NiKrlUZwAAAAM/decepcionado-pocoyo.gif",
+                    imageWidth: 300,
+                    imageHeight: 200,
+                    confirmButtonText: "Lanjutkan",
+                    confirmButtonColor: "#87CEEB",
+                  }).then(() => {
+                    // Sweet Alert terakhir
+                    Swal.fire({
+                      text: "maaf belum bisa ngasih sesuatu yang istimewa di hari ini",
+                      imageUrl: "https://media.tenor.com/m__pCZoSh1EAAAAM/bubu-dudu.gif",
+                      imageWidth: 300,
+                      imageHeight: 200,
+                      confirmButtonText: "Selesai",
+                      confirmButtonColor: "#87CEEB",
+                    }).then(() => {
+                      // Sweet Alert terakhir
+                      Swal.fire({
+                        text: "ayang jangan berpindah ke lain hati yaa, apapun masalahnya jangan nyerah sama hubungan kita yaa, cukup masalahnya aja yang diselesain",
+                        imageUrl: "https://media.tenor.com/XbMSv-xj8xoAAAAM/bubu-tickling.gif",
+                        imageWidth: 300,
+                        imageHeight: 200,
+                        confirmButtonText: "Selesai",
+                        confirmButtonColor: "#87CEEB",
+                      }).then(() => {
+                        // Sweet Alert terakhir
+                        Swal.fire({
+                          text: "janji sama aa terus ya cantikk.. ayang gabakalan dibiarin bersaing dengan cewe lain jdi jangan khawatir yaa sayangg krna ayang satu²nya bukan salah satunya.",
+                          imageUrl: "https://media.tenor.com/LHlyVemTgEUAAAAM/encantado-de-conocerte-pocoyo.gif",
+                          imageWidth: 300,
+                          imageHeight: 200,
+                          confirmButtonText: "Selesai",
+                          confirmButtonColor: "#87CEEB",
+                        }).then(() => {
+                          // Sweet Alert terakhir
+                          Swal.fire({
+                            text: "aa gamu kehilangan ayangg, aa udah saayannggg banget sama ayang, jangan tinggalin aa yaa.. ",
+                            imageUrl: "https://media.tenor.com/C_8Bard9dCoAAAAj/negando-pocoyo.gif",
+                            imageWidth: 300,
+                            imageHeight: 200,
+                            confirmButtonText: "Selesai",
+                            confirmButtonColor: "#87CEEB",
+                          }).then(() => {
+                            // Sweet Alert terakhir
+                            Swal.fire({
+                              text: "sekali lagi terimakasih sudah mau menerima aa hingga saat ini. lopyu sayang, semoga hubungan kita bisa melangkah lebih jauh lagi",
+                              imageUrl: "https://media.tenor.com/ut5vjyagjuEAAAAj/tkthao219-bubududu.gif",
+                              imageWidth: 300,
+                              imageHeight: 200,
+                              confirmButtonText: "Selesai",
+                              confirmButtonColor: "#87CEEB",
+                            });
+                          });
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
